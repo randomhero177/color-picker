@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col h2{
+    padding: 15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.col h2:hover{
+    background: rgba(0, 0, 0, .05);
+}
+.col button {
+    border: none;
+    background: none;
+    color: #777;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.col button:hover {
+    background: rgba(0, 0, 0, .05);
+}
